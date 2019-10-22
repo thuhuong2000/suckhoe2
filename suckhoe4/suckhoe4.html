@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        .menu{
+            background-color: darkgrey;
+        }
+        h2{
+           color: deeppink;
+        }
+        .news-box-body{
+            float:left;
+            width:70%
+        }
+        .news-box-body__img{
+            width: 40%;
+            height: 20%;
+            float:left;
+        }
+        .news-box-body__img img{
+            width: 100%;
+            height: 100%;
+        }
+        .news-box-body__text{
+            width: 60%;
+            float:left;
+            padding-left: 1rem;
+        }
+        .news-box-body__text{
+            text-align: justify;
+        }
+    </style>
+</head>
+<!-- news-box > container > row > col 8 col 4 -> col8: news-box-head, col4: news-box-body -->
+<body>
+    <div class="menu">
+        <h2 style="display:inline">Sức khỏe</h2>
+        <span style="display:inline">
+            <b href=>Tin tức</b> |
+            <b href=>Các bệnh</b> |
+            <b href=>Khỏe đẹp</b> |
+            <b href=>Dinh dưỡng</b> 
+        </span>
+    </div>
+    <div class="news-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                        <div class="news-box-head">
+                                <h4>Nhà khoa học 'Choáng' khi biết tin đạt giải Nobel Y sinh</h4>
+                        </div>
+                        <div class="news-box-body">
+                            <div class="news-box-body__img">
+                                <img src="./image1.png" alt="">
+                            </div>
+                            <div class="news-box-body__text">
+                                    <p>
+                                        William Kaelin, một trong
+                                        3 nhà khoa học đạt giải
+                                        Nobel Y sinh, cho biết 
+                                        ông "rất choáng" khi nhận
+                                        cuộc gọi báo tin lúc rạng
+                                        sáng ngày 7/10.
+                                    </p>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Đang tư vấn trực tuyến về mì ăn liền</li><br>
+                        <li>Triển vọng điều trị ung thư từ Nobel Y sinh 2019</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
